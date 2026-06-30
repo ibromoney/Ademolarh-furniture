@@ -9,7 +9,7 @@ const collections = [
   {
     title: "Living Room",
     image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "https://res.cloudinary.com/dlzjjxtsd/image/upload/v1782744802/e30256fc564040d7b8825b20197ac10c_ghqcv8.jpg",
     href: "/shop?category=living-room",
   },
   {
@@ -21,7 +21,7 @@ const collections = [
   {
     title: "Office",
     image:
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=900&auto=format&fit=crop",
+      "https://res.cloudinary.com/dlzjjxtsd/image/upload/v1782745081/fedaf51b4f0b496880f0d22d65c5b018_cwxnyd.jpg",
     href: "/shop?category=office",
   },
 ];

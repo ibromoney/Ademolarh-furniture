@@ -12,6 +12,7 @@ type Product = {
   price: number;
   rating: number;
   material: string;
+  description: string;
 };
 
 type QuickViewModalProps = {
@@ -86,34 +87,24 @@ export default function QuickViewModal({
                   {product.material}
                 </span>
 
-                <h2 className="text-5xl font-bold">
-                  {product.name}
-                </h2>
+                <h2 className="text-5xl font-bold">{product.name}</h2>
 
                 <div className="mt-5 flex items-center gap-2">
-                  <Star
-                    size={18}
-                    className="fill-yellow-400 text-yellow-400"
-                  />
+                  <Star size={18} className="fill-yellow-400 text-yellow-400" />
 
                   <span>{product.rating}</span>
                 </div>
 
                 <p className="mt-8 leading-8 text-zinc-400">
-                  Every Ademolarh Furniture piece is handcrafted using
-                  premium materials to create timeless interiors that
-                  combine comfort, elegance, and durability.
+                  {product.description}
                 </p>
 
                 <div className="mt-10 text-4xl font-bold text-teal-400">
                   ${product.price}
                 </div>
 
-                <button
-                  className="mt-10 flex items-center justify-center gap-3 rounded-full bg-teal-600 px-8 py-4 font-semibold transition hover:bg-teal-500"
-                >
+                <button className="mt-10 flex items-center justify-center gap-3 rounded-full bg-teal-600 px-8 py-4 font-semibold transition hover:bg-teal-500">
                   <ShoppingBag size={20} />
-
                   Add to Cart
                 </button>
               </div>
