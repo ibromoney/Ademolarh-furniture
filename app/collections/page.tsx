@@ -11,7 +11,7 @@ const collections = [
     description:
       "Elegant sofas, coffee tables and accent chairs designed for modern living.",
     image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80",
+      "https://res.cloudinary.com/dlzjjxtsd/image/upload/v1782744802/e30256fc564040d7b8825b20197ac10c_ghqcv8.jpg",
     href: "/shop?category=living-room",
   },
   {
@@ -27,7 +27,7 @@ const collections = [
     description:
       "Beautiful dining tables and chairs made for unforgettable moments.",
     image:
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80",
+      "https://res.cloudinary.com/dlzjjxtsd/image/upload/v1782744865/f52f679849e748d38b8c3486371f4743_sckruv.jpg",
     href: "/shop?category=dining",
   },
 ];
