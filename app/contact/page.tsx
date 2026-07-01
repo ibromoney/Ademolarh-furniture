@@ -40,13 +40,10 @@ export default function Contact()
 
       setMessage("✅ Your message has been sent successfully.");
       form.current.reset();
- } catch (error: any) {
-  console.error(error);
-
-  setMessage(
-    `❌ ${error?.text || error?.message || "Failed to send message"}`
-  );
-}
+    } catch (error) {
+      console.error(error);
+      setMessage("❌ Failed to send message. Please try again.");
+    }
 
     setLoading(false);
   };
